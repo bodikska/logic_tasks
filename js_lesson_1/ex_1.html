@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<script type="text/javascript">
+
+    let array = [1, -5, 8, 9, 11, 15, 19];
+    
+ function min_max(arr) {
+    let min = 0;
+    let max = 0;
+    
+     for (let i = 0; i <= arr.length-1; i++) {
+         if (arr[i] < min) {
+             min = arr[i]
+         }  
+     }
+ console.log(min)
+
+     for (let i = 0; i <= arr.length-1; i++) {
+         if (arr[i] > max) {
+             max = arr[i]
+         }  
+     }
+ console.log(max)
+ }
+ 
+ console.log(min_max(array))
+
+ 
+</script>
+<body>
+
+</body>
+</html>
